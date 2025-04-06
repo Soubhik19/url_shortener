@@ -3,7 +3,7 @@ const mongoose=require('mongoose');
 //ceate the schema 
 const urlSchema =new mongoose.Schema(
     {
-        sortId:{
+        shortId:{
             type :String,
             required :true,
             unique :true,
