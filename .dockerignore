@@ -1,0 +1,11 @@
+# Ignore dependencies and VCS data
+node_modules
+.git
+
+# Ignore Dockerfile and README (optional, they are not needed inside container)
+Dockerfile
+README.md
+
+# Ignore logs and environment config
+*.log
+.env
