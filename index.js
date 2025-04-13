@@ -34,5 +34,10 @@ app.get("/:shortId", async (req, res) => {
     res.redirect(entry.redirectURL);
   });
   
+  // Simple hello route
+app.get('/hello', (req, res) => {
+  res.send('Hello, welcome to my URL shortener app');
+});
+
 
 app.listen(PORT,()=>console.log(`server started at port :${PORT}`));
